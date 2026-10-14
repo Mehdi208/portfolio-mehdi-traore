@@ -1,0 +1,18 @@
+# Environment & Local Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+serviceAccountKey.json
+*.key
+
+# Node & Build artifacts
+node_modules/
+dist/
+build/
+.next/
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
