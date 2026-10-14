@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Github, Linkedin, Instagram, Phone, Mail, ArrowUpRight, Shield } from 'lucide-react';
 import { Badge } from '../ui/Badge';
+import { Logo } from '../ui/Logo';
 
 export const Footer: React.FC = () => {
   return (
@@ -13,14 +14,7 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-white/5">
           {/* Col 1: Identity */}
           <div className="md:col-span-2 space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-full bg-[#101828] border border-white/20 flex items-center justify-center font-bold text-sm tracking-tighter text-white">
-                M<span className="text-[#d9ff5c]">.</span>
-              </div>
-              <span className="font-bold text-lg tracking-tight text-white">
-                Méhdi Traoré
-              </span>
-            </div>
+            <Logo size="md" />
             <p className="text-sm text-white/60 max-w-sm leading-relaxed">
               Concepteur Web & Créatif Digital. Je conçois des expériences digitales qui captivent & convertissent : sites vitrines, applications SaaS, création de contenu vidéo et identités de marque.
             </p>
