@@ -31,7 +31,7 @@ export default {
       },
       fontFamily: {
         sans: ['Satoshi', 'Inter', 'system-ui', 'sans-serif'],
-        display: ['Satoshi', 'system-ui', 'sans-serif'],
+        display: ['Syne', 'Satoshi', 'system-ui', 'sans-serif'],
       },
       keyframes: {
         marquee: {

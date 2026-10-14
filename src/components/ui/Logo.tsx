@@ -22,7 +22,7 @@ export const Logo: React.FC<LogoProps> = ({ className = '', size = 'md' }) => {
     <div className={`flex items-center gap-2.5 group cursor-pointer select-none ${className}`}>
       {/* CreatorCut Red Emblem Icon */}
       <div
-        className={`${iconSize} rounded-xl bg-gradient-to-br from-[#ff2e2e] to-[#cc1414] p-1.5 flex items-center justify-center shadow-[0_0_20px_rgba(255,46,46,0.4)] group-hover:shadow-[0_0_25px_rgba(255,46,46,0.6)] transition-all`}
+        className={`${iconSize} rounded-xl bg-gradient-to-br from-[#ff2e2e] to-[#cc1414] p-1.5 flex items-center justify-center shadow-[0_0_20px_rgba(255,46,46,0.4)] group-hover:shadow-[0_0_25px_rgba(255,46,46,0.6)] transition-all flex-shrink-0`}
       >
         <svg
           viewBox="0 0 24 24"
@@ -38,15 +38,14 @@ export const Logo: React.FC<LogoProps> = ({ className = '', size = 'md' }) => {
         </svg>
       </div>
 
-      {/* Styled Brand Typography */}
-      <div className="flex flex-col leading-none">
+      {/* Styled Brand Typography (Point rouge retiré selon instruction) */}
+      <div className="flex flex-col leading-tight">
         <div className={`font-extrabold tracking-tight text-white flex items-center ${textSize}`}>
           <span>Méhdi</span>
-          <span className="ml-1 text-white/90">Traoré</span>
-          <span className="w-1.5 h-1.5 rounded-full bg-[#ff2e2e] ml-0.5 inline-block shadow-[0_0_8px_#ff2e2e]" />
+          <span className="ml-1.5 text-white/95">Traoré</span>
         </div>
-        <span className="text-[9px] font-mono uppercase tracking-widest text-white/40 mt-0.5">
-          Concepteur Web & Vidéo
+        <span className="text-[9px] font-mono uppercase tracking-wider text-white/50 mt-0.5 whitespace-nowrap">
+          Concepteur Web & Créatif Digital
         </span>
       </div>
     </div>

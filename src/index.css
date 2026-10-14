@@ -50,6 +50,10 @@
   animation: pulseGlow 6s ease-in-out infinite;
 }
 
+.animate-marquee-fast {
+  animation: marquee 9s linear infinite;
+}
+
 /* Mask for fading edges into blur/cloud */
 .mask-gradient-x {
   mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
