@@ -12,7 +12,7 @@ const ROTATING_WORDS = [
 
 // Avatars des clients / marques pour le ruban défilant avec flou nuageux
 const ROTATING_AVATARS = [
-  { img: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=120&auto=format&fit=crop', label: 'Client 1' },
+  { img: './mehdi-portrait.webp', label: 'Méhdi Traoré' },
   { img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=120&auto=format&fit=crop', label: 'Client 2' },
   { img: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=120&auto=format&fit=crop', label: 'Client 3' },
   { img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=120&auto=format&fit=crop', label: 'Client 4' },
@@ -156,7 +156,7 @@ export const HeroSection: React.FC = () => {
               muted={isMuted}
               playsInline
               className="w-full h-full object-cover object-center group-hover:scale-102 transition-transform duration-700"
-              poster="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop"
+              poster="./mehdi-portrait.webp"
             >
               <source
                 src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
